@@ -1,0 +1,15 @@
+
+version: 2
+sources:
+    - name: dbt_akumar
+      tables:
+      - name: bills_vendor
+      - name: invoice_customer
+      
+    - name: public
+      tables:
+      - name: bills
+      - name: invoice
+      - name: currency
+      - name: customer
+      - name: vendor
